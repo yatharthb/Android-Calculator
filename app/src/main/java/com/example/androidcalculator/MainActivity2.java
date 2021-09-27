@@ -14,7 +14,7 @@ public class MainActivity2 extends AppCompatActivity {
         TextView textView3 = (TextView) findViewById(R.id.textView3);
         Intent intent = getIntent();
         int i = intent.getIntExtra("message", 0);
-        String s = "" + i;
+        String s = "1" + i;
         textView3.setText(s);
 
     }
